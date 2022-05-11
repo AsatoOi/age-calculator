@@ -16,7 +16,7 @@ body {
   align-items: center;
 }
 .calculator-wrapper {
-  height: 10vh;]
+  height: 10vh;
 }
 .container {
   width: 25%;
@@ -51,7 +51,6 @@ button {
   margin: auto;
   display: flex;
   justify-content: space-between;
-
 }
 .outputs-wrapper div {
   height: 80px;
