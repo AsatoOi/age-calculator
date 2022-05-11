@@ -1,67 +1,70 @@
 *,
 *:before,
-*:after{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: #0a6cf1;
+body {
+  background-color: #066910;
 }
-.container{
-    width: 40%;
-    min-width: 450px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    top: 50%;
-    padding: 50px 30px;
+.flex {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.container *{
-    font-family: "Poppins",sans-serif;
-    border: none;
-    outline: none;
+.calculator-wrapper {
+  height: 10vh;]
 }
-.inputs-wrapper{
-    background-color: #080808;
-    padding: 30px 25px;
-    border-radius: 8px;
-    box-shadow: 0 15px 20px rgba(0,0,0,0.3);
-    margin-bottom: 50px;
+.container {
+  width: 25%;
+  min-width: 450px;
 }
+.container * {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  outline: none;
+}
+
 input,
-button{
-    height: 50px;
-    background-color: #ffffff;
-    color: #080808;
-    font-weight: 500;
-    border-radius: 5px;
+button {
+  height: 50px;
+  background-color: #ffffff;
+  color: #080808;
+  font-weight: 500;
+  border-radius: 5px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 }
-input{
-    width: 60%;
-    padding: 0 20px;
-    font-size: 14px;
+input {
+  width: 70%;
+  padding: 0 20px;
+  font-size: 14px;
 }
-button{
-    width: 30%;
-    float: right;
+button {
+  width: 20%;
+  float: right;
 }
-.outputs-wrapper{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+.outputs-wrapper {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+
 }
-.outputs-wrapper div{
-    height: 100px;
-    width: 100px;
-    background-color: #080808;
-    border-radius: 5px;
-    color: #ffffff;
-    display: grid;
-    place-items: center;
-    padding: 20px 0;
-    box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+.outputs-wrapper div {
+  height: 80px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+  display: grid;
+  place-items: center;
+  padding: 20px 0;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 }
+/* 
 span{
     font-size: 30px;
     font-weight: 500;
@@ -70,4 +73,4 @@ p{
     font-size: 14px;
     color: #707070;
     font-weight: 400;
-}
+} */
